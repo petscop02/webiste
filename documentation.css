@@ -1,0 +1,245 @@
+body
+            {
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                overflow-x: hidden;
+            }
+            footer
+            {
+                margin-top: auto;
+            }
+            ul li 
+            {
+                padding:10px;
+            }
+            @media screen and (max-width:692px) 
+            {
+                .aa
+                {
+                    display: none;
+                    float:none;
+                    width:100%;
+                }
+                .topnav details
+                {
+                    display:block;
+                    float:none;
+                    width: 100%;
+    
+                }
+                .image
+                {
+                    display:block;
+                    float: none;
+                    text-align: center;
+                }
+                ul li
+            {
+                list-style: none;
+                margin-right: 100%;
+                margin-left: -10%;
+            }
+            summary
+            {
+                margin-right: 100%;/*430*/
+                margin-left: 0%;
+                margin-top: -15%;
+            }
+            .image
+            {
+                margin-bottom: 2%;
+            }
+            }
+            @media screen and (min-width:693px)
+            {
+                .topnav details
+                {
+                    display: none;
+                }
+                .image
+                {
+                    display: none;
+                } 
+            }
+            @media screen and (max-width:376px) {
+            summary
+            {
+                margin-right: 100%;
+                margin-left: 0%;
+                margin-top: -27%;
+            }
+            ul li{
+                list-style: none;
+                margin-right: 100%;
+                margin-left: -20%;
+            }
+            }
+            @media screen and (max-width:415px) {
+            summary
+            {
+                margin-right: 100%;
+                margin-left: 0%;
+                margin-top: -23%;
+            }
+            ul li{
+                list-style: none;
+                margin-right: 100%;
+                margin-left: -20%;
+            }
+            }
+            @media screen and (max-width:391px) {
+            summary
+            {
+                margin-right: 100%;
+                margin-left: 0%;
+                margin-top: -25%;
+            }
+            ul li{
+                list-style: none;
+                margin-right: 100%;
+                margin-left: -20%;
+            }
+            }
+            @media screen and (max-width:431px) {
+            summary
+            {
+                margin-right: 100%;
+                margin-left: 0%;
+                margin-top: -23%;
+            }
+            ul li{
+                list-style: none;
+                margin-right: 100%;
+                margin-left: -18%;
+            }
+            }
+            @media screen and (max-width:362px) {
+            summary
+            {
+                margin-right: 100%;
+                margin-left: 0%;
+                margin-top: -41%;
+            }
+            ul li
+            {
+                list-style: none;
+                margin-right: 100%;
+                margin-left: -24%;
+            }
+            }
+            @media screen and (max-width:541px) {
+            summary
+            {
+                margin-right: 100%;
+                margin-left: 0%;
+                margin-top: -19%;
+            }
+            ul li{
+                list-style: none;
+                margin-right: 100%;
+                margin-left: -14%;
+            }
+            }
+            @media screen and (max-width:281px) {
+            summary
+            {
+                margin-right: 100%;
+                margin-left: -1%;
+                margin-top: -40%;
+            }
+            ul li{
+                list-style: none;
+                margin-right: 100%;
+                margin-left: -32%;
+            }
+            }
+            @media screen and (max-width:413px) {
+            summary
+            {
+                margin-right: 100%;
+                margin-left: -1%;
+                margin-top: -25%;
+            }
+            ul li{
+                list-style: none;
+                margin-right: 100%;
+                margin-left: -20%;
+            }
+            }
+            details > summary /*https://stackoverflow.com/questions/6195329/how-can-you-hide-the-arrow-that-is-displayed-by-default-on-the-html5-details-e*/
+            {
+                list-style: none;
+            }
+            details > summary::-webkit-details-marker
+            {
+                display:none;
+            }
+            .topnav
+            {
+                background-color: rgb(112,44,247);
+                padding:25px;
+                text-align: center;
+                width: 100%;
+            }
+            .topnav a
+            {
+                color:rgb(230, 230, 230);
+                padding:25px;
+            }
+            .topnav a:hover
+            {
+                color:rgb(255,255,255);
+                text-decoration: none;
+                transition: 1s;
+            }
+            .jumbotron-footer
+            {
+                margin-bottom: 0 !important;
+                background-color: #2c2c35 !important;
+                color:white;
+                width: 100%;
+
+            }
+            .afooter a
+            {
+                text-decoration: none;
+                color:rgb(230, 230, 230);
+                display: block;
+            }
+            .afooter a:hover
+            {
+                color:rgb(255,255,255);
+            }
+            hr
+            {
+                border-color: white;
+            }
+            .ft 
+            {
+                word-spacing: 15px;
+            }
+            .jumbotron-main
+            {
+                background-color: white !important;
+            }
+            .button
+            {
+                text-align: center;
+                margin-top: 20%;
+                margin-bottom:5%;
+            }
+            #abutton
+            {
+                background-color: rgb(112,44,247);
+                color:white;
+                padding:25px;
+                border-radius: 50px;
+                text-decoration: none;
+            }
+            #abutton:hover
+            {
+                background-color:white;
+                color:rgb(112,44,247);
+                transition: 1s;
+            }
